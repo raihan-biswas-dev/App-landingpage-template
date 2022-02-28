@@ -1,0 +1,157 @@
+@media(min-width: 1200px) {}
+
+@media(min-width: 992px) and (max-width: 1199px) {}
+
+@media(min-width: 768px) and (max-width: 991px) {}
+
+@media(min-width: 576px) and (max-width: 767px) {}
+
+
+
+/* Mobile Device */
+
+/* Menu Part Start */
+
+@media (max-width: 575px) {
+
+    .navbar.navbar-expand-lg.main_menu.p-lg-0.menu_fix {
+        background: rgba(0, 0, 0, 0.9);
+        height: 60px !important;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .menu_fix .navbar-brand img {
+        height: 49px;
+    }
+
+    .main_menu {
+        top: 16px !important;
+    }
+
+    .main_menu ul {
+        background: rgba(25, 25, 26, 0.95);
+        text-align: center;
+        top: 87px !important;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    .menu_fix ul {
+        background: rgba(25, 25, 26, 0.95);
+        text-align: center;
+        top: 59px !important;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+
+    .main_menu .navbar-nav .nav-item a.active {
+        /* color: yellow; */
+        /* position: relative; */
+    }
+
+
+    .main_menu .navbar-nav .nav-item a.active::after {
+        display: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        margin-left: 0px;
+        line-height: 40px;
+    }
+
+    .main_menu .navbar-nav .menu_btn {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    .banner_item {
+        padding: 110px 0 43px;
+        position: relative;
+    }
+
+    .banner_text h1 {
+        font-size: 36px;
+    }
+
+    .banner_text h2 {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+
+    .banner_text h2::after {
+        bottom: -20px;
+    }
+
+
+    .banner_text p.banner_p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-left: 20px;
+    }
+
+    #banner_part>a {
+        display: none;
+    }
+
+    .banner_text .bt1 {
+        margin-top: -28px;
+    }
+
+    .banner_text .bt2 {
+        padding: 7px 30px 10px 59px;
+        margin-top: 15px;
+    }
+
+    #banner_part .slick-dots {
+        position: absolute;
+        bottom:30px;
+        top: 521px;
+        display: flex;
+        transform: translate(-50%);
+        left:50%
+    }
+
+
+    #banner_part .slick-dots li button {
+        margin: 0 14px;
+    }
+    /* Banner Part End */
+
+
+/* About Part Start */
+#about_part {
+	padding: 0px 0;
+}
+
+
+.awesome_head h4 {
+	font-size: 22px;
+}
+
+
+#awesome_part h3{
+    display: none;
+}
+
+.tab_menu a::after {
+display: none;
+}
+
+/* About Part End */
+
+
+}
